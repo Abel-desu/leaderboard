@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+}
+
+#refresh {
+  /* height: fit-content; */
+  align-self: center;
+}
+
+.score-holder {
+  border: 2px solid;
+  width: 50%;
+}
+
+section {
+  display: flex;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 117px;
+}
+
+#submit {
+  width: fit-content;
+  align-self: end;
+}
+
+ul li {
+  overflow: hidden;
+}
