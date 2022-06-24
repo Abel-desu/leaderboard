@@ -32,3 +32,37 @@ const RecentScores = [
 ];
 
 export default RecentScores;
+let recentScore =[
+  {
+  "name": "abel",
+ "score": 100
+},
+{
+     "name": "nadia",
+      "score": 20
+},
+{
+  "name": "nadia",
+   "score": 20
+},
+{
+  "name": "nadia",
+   "score": 20
+},
+{
+  "name": "nadia",
+   "score": 20
+},
+{
+  "name": "nadia",
+   "score": 20
+}
+]
+async function populate(){
+  const requestURL = '';
+  const request = new Request(requestURL);
+  const superHeroes =await Response.json();
+
+  populateHeader(superHeroes);
+  populateHeroes(superHeroes)
+}
