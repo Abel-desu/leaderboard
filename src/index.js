@@ -1,6 +1,5 @@
-import RecentScores from './RecentScore';
+
 import './style.css';
-// const form = document.getElementById('form');
 const submit = document.getElementById('submit');
 const show = (name, score) => {
   document.querySelector('#list').innerHTML += `<ul>
