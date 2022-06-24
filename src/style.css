@@ -1,23 +1,22 @@
 .header {
   display: flex;
-  width:  50%;
+  width: 50%;
   justify-content: center;
   background: cadetblue;
   align-self: flex-start;
-  margin-left: 200px;}
+  margin-left: 200px;
+}
 
 #refresh {
   /* height: fit-content; */
   align-self: center;
 }
 
-
 section {
   display: flex;
   width: 50%;
   margin-left: 200px;
   background: cadetblue;
-
 }
 
 form {
@@ -34,6 +33,7 @@ form {
 ul li {
   overflow: hidden;
 }
-ul{
+
+ul {
   background: darkcyan;
 }
